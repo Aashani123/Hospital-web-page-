@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.main{
+    margin: 0auto;
+
+}
+.clearfix{
+    overflow:auto;
+}
+.top{
+    width: 100%;
+    background-color: honeydew;
+}
+
+.search{
+    padding:0 10px;
+    float:right;
+    margin:15px;
+    background:white;
+    border-radius:10px;
+
+}
+.search input{
+    border:none;
+
+}
+.search button{
+  
+    border:0;
+}
+header .logo h1{
+    
+    font-variant:small-caps;
+    font-size:48px;
+
+}
+body{
+    background-color:lightcyan;
+
+}
+
+.name{
+    float:center;
+    background:rgb(240, 224, 162)
+}
+
+nav {
+    background-color: rgb(11, 68, 68);
+    text-align: center;
+}
+nav .ul{
+    list-style:none;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a{
+    color:aliceblue;
+    margin-top:10px; margin-bottom:10px;
+    margin-left:20px; margin-right:20px;
+    display:inline-block;
+}
+div.info{
+    width:100%;
+    margin:0;
+
+
+}
+div.eme h2{
+    float:right;
+}
+div.info div.im{
+   float:left;
+}
+div.info div.test{
+    width:60%;
+    float:right;
+    
+}
+div.test h2{
+    margin-top:100px;
+    font-size:38px;
+
+}
+div.test h3{
+    font-weight: normal;
+
+
+}
+div.info2{
+    width:100%;
+    margin:0;
+
+}
+div.info2 div.vi{
+    align-items: center;
+}
+div.home{
+    width:100%;
+    background-color: rgb(13, 97, 97);
+    
+}
+div.homecol{
+    
+    width:25%;
+    float:left;
+
+}
+div.main2{
+    background-image: url(../Images/image8.png);
+    background-size:100% ;
+}
+div.main2 h4{
+    color: rgb(32, 5, 29);
+}
+div.Web{
+     text-align:left;
+}
+div.Web p{
+    color:darkslategray;
+    align-content: center;
+}
+.opac{
+    opacity:20%;
+    border:0.01vw solid black;
+
+}
+.opac:hover{
+    opacity:100%;
+}
+.clinic{
+    opacity:50%;
+}
+.clinic:hover{
+    opacity:100%;
+}
+.precision{
+    opacity:50%;
+}
+.precision:hover{
+    opacity:100%;
+}
+.ime{
+    float:right;
+    opacity:30%;
+}
+.ime:hover{
+    opacity:100%;
+}
+.imn{
+    float:right;
+   opacity:30%;
+}
+.imn:hover{
+    opacity:100%;
+}
+.fac{
+   opacity:30%;
+}
+.fac:hover{
+    opacity:100%;
+}
+
+.fac2{
+    opacity:30%;
+    float:right;
+ }
+ .fac2:hover{
+     opacity:100%;
+ }

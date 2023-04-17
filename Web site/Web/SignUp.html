@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/FormStyle.css">
+    <title>Healthcare</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top clearfix">
+            <center><img src="../Images/image3.png" width="100" heigt="5000"></center>
+            <div class="eme"><h2 style="color:chocolate"><i>Emergency: 1456</i></h2></div>
+
+            <div class="links">
+              <h3 style="color:teal">"Health is Wealth"</h3>
+              <h3 style="color:teal"><a href="SignUp.html">Sign up for get more details</a></h3>
+
+            </div>
+            
+            <div class="search">
+                <form method="get" action="#">
+                    <input type="search" name="search" placeholder="Search....">
+                    <button type="submit"><i class="fa fa-search"></i>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+        <header>
+            <br>
+            <div class="logo">
+              <h1 style="color:rgb(51, 153, 139)"><center><marquee><i>RAR HOSPITAL</i></marquee></center></h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    <div class="whole">
+    <h1>Sign Up Form</h1>
+    <form class="frm" onsubmit="return allchecking()">
+        <div class="input">
+        <label>First name</label><br>
+       <input type="text" id="firstname" placeholder="Firstname" required onkeyup="validName()"> 
+       <span id="name-error"></span>
+                   
+    </div>
+    <div class="input">
+        <label>Last name</label><br>
+        <input type="text" id="lastname" placeholder="Lastname" required onkeyup="validlastName()"> 
+        <span id="secondname-error"></span>
+
+    </div>
+       
+    
+       <div class="input">       
+        <label>DOB</label><br>
+        <input type="date" id="birth" placdeholder="date of birth" required onchange="calDOB()">
+        <span id="birth-error"></span>
+        <p id="yAge"></p>
+     
+        <div class="input-address">
+        <label>Address</label><br>
+        <input type="text" id="addrs" placeholder="address">
+        </div>
+
+        <div class="input">
+        <label>Email</label><br>
+        <input type="email" id="mail" placeholder="Email" required onkeyup="validmail()">
+        <span id="mail-error"></span>
+    </div>
+        <div class="input">
+        <label>User name</label><br>
+        <input type="text" id="uname" placeholder="user name" required onkeyup="validUn()">
+        <span id="un-error"></span>
+ 
+     </div>
+        <div class="input"> 
+        <label>Password</label><br>
+        <input type="password" id="pass" placeholder="Password" required onkeyup="validPassword()">
+        <span id="pass-error"></span>
+
+     </div>
+    <div class="input">
+        <label>Confirm Password</label>
+        <input type="password" id="cp" required onkeyup="cpw()" placeholder="Confirm Password">
+        <span id="cpw-error"></span>
+    </div>
+
+    <input type="checkbox" id="check" required onclick="checkx()" ><span id="terms-error"></span>
+    <p class="checked">I have agree with terms & conditions of University of Moratuwa</p>
+    
+
+        <div class="input">
+        <input type="submit" id="sub" name="Submit"></div>
+     </form></div>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+h1{
+    text-align:center;
+    font-size:60px;
+    color:rgb(196, 57, 78);
+
+}
+form{
+     margin: 20px auto;
+     width:320px;
+     color:rgb(120, 16, 16);
+}
+
+input{
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    border-color:rgb(235, 226, 232);
+    font-size:inherit;
+    background-color: rgb(225, 199, 190);
+}
+
+.input span{
+   position:absolute ;
+   font-size:18px;
+   background-color: beige;
+   padding: 0 10px 0 10px;
+   margin-left: 10px;
+  
+}
+.whole{
+    background-color:lightcyan ;   
+    width:540px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:30px;
+    position: relative;
+    left:33.33%;   
+    right:33.33%; 
+ }
+ #sub{
+     background-color: cornsilk;
+ }
+ #sub:hover{
+     background-color: rgb(176, 70, 174);
+ }
